@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rars.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
