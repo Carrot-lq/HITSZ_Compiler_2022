@@ -17,29 +17,30 @@ import java.util.List;
  */
 public class IRGenerator implements ActionObserver {
 
+    private SymbolTable symbolTable = null;
     @Override
     public void whenShift(Status currentStatus, Token currentToken) {
         // TODO
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 
     @Override
     public void whenReduce(Status currentStatus, Production production) {
         // TODO
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 
 
     @Override
     public void whenAccept(Status currentStatus) {
         // TODO
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 
     @Override
     public void setSymbolTable(SymbolTable table) {
         // TODO
-        throw new NotImplementedException();
+        this.symbolTable = table;
     }
 
     public List<Instruction> getIR() {
