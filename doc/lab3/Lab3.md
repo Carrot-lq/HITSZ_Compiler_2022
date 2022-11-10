@@ -390,7 +390,7 @@ public void whenAccept(Status currentStatus) {
 
 将产生式体所有符号出栈。
 
-根据当前产生式生成相应中间代码或
+根据当前产生式生成相应中间代码或修改符号对应属性。
 
 然后将产生式头入栈。其中 ``IRValue`` 栈压入 ``null`` 时表示占位。
 

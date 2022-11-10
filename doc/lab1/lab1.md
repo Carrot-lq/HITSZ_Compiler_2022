@@ -235,7 +235,7 @@ public class LexicalAnalyzer {
 
 大致分为三个部分：状态转移、拼接字符/数字、填充词法单元表/符号表。
 
-执行完成后，所有此法单元存放于列表 `token` ，符号存于 `symbolTable` 。
+执行完成后，所有词法单元存放于列表 `token` ，符号存于 `symbolTable` 。
 
 ```java
 	/**
